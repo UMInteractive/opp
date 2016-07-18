@@ -1,0 +1,258 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+
+
+body {
+  background: #fff;
+  color: #111;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.75;
+  letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
+}
+
+#index {
+  background: #111;
+  color: #eee;
+}
+
+a {
+  color: rgb(88,127,204); /* light blue */
+  text-decoration: none;
+  border-bottom: 1px dotted rgb(88,127,204);
+  transition: all 0.5s ease-in;
+}
+
+a:hover {
+  color: rgb(81,207,230);
+  border-bottom-color: rgb(81,207,230);
+  transition: all 0.5s ease-in;
+}
+
+/* link color palette: http://www.colourlovers.com/palette/2798151/Firefly_Squid_Japan */
+
+h1 {
+  margin-left: -10000px;
+  height: 0;
+}
+
+h1, h2, h3,
+strong,
+footer {
+  font-weight: 400;
+}
+
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+header img[src$=".svg"],
+footer img[src$=".svg"] {
+  width: 175px;
+  display: block;
+  margin: 1em auto;
+}
+
+header nav {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+header ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+header li {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+
+header li:first-child {
+  text-align: left;
+}
+
+header li:last-child {
+  text-align: right;
+}
+
+header a {
+  color: #eee;
+  border-bottom: 0
+}
+
+header a:hover {
+  color: rgb(81,207,230);
+}
+
+section {
+  background: #fff;
+  color: #111;
+}
+
+#index section:nth-child(2n) {
+  background: #111;
+  color: #eee;
+}
+
+#intro {
+  background: url("../img/bg-edit.jpg");
+  background-size: cover;
+  background-position: 0 -100px;
+  /* background-attachment: fixed; */
+  /* fixed or no for reverse curtain effect? */
+  color: #fff;
+  padding: 290px 0 200px 0;
+}
+
+#policy {
+  padding-top: 100px;
+}
+
+article {
+  max-width: 60%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#intro article {
+  position: relative;
+}
+
+textarea {
+  width: 100%;
+  font-size: 16px;
+  font-family: "Andale Mono", "Menlo", "Monaco", monospace;
+  display: block;
+  padding: 0.5em;
+  margin: 1em 0;
+  line-height: 1.5;
+  background: #eee;
+  border: 1px solid #ddd;
+}
+
+#next li {
+  margin-bottom: 1em;
+}
+
+footer {
+  width: 100%;
+  background: #fff;
+  overflow: auto;
+  position: relative;
+}
+
+#terms,
+#social {
+  position: absolute;
+}
+
+#terms {
+  top: 3em;
+  left: 3em;
+}
+
+#social {
+  top: 4em;
+  right: 3em;
+}
+
+#social img[src$=".svg"] {
+  width: 50px;
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: #111;
+  border-bottom: 1px dotted #111;
+}
+
+footer a:hover {
+  color: rgb(34,63,163);
+  border-bottom-color: rgb(34,63,163);
+}
+
+
+/* c-t-a button */
+
+a.optin {
+  display: block;
+  margin: 3em auto;
+  width: 33%;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  padding: 0.5em;
+  background: transparent;
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-in;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+a.optin:hover {
+  background: #eee;
+  color: #111;
+  transition: all 0.5s ease-in;
+}
+
+
+/* video */
+iframe[src*="vimeo"] {
+  border: 0;
+}
+
+
+
+/* form */
+
+form h2 {
+  margin: 0;
+  margin-top: 2em;
+}
+
+form p {
+  margin: 0;
+  margin-top: 3em;
+}
+
+label {
+  display: block;
+}
+
+.explainer {
+  background: #eee;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+  font-size: 1em;
+  display: block;
+  margin-top: 0.25em;
+  padding: 0.5em;
+  border: 1px solid #111;
+  border-radius: 5px;
+  background: #fff;
+}
+
+input[type="submit"]:hover {
+  background: #111;
+  color: #eee;
+  transition: all 0.5s ease-in;
+}

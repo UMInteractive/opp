@@ -1,0 +1,48 @@
+* {
+  background: transparent;
+  color: #000;
+  font-family: "Times New Roman", "Times", "Georgia", serif;
+  font-size: 12pt;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+header a,
+nav,
+#intro h2,
+#intro p,
+#next {
+  display: none;
+}
+
+img[src$="black.svg"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.5in;
+}
+
+header h1 {
+  font-size: 24pt;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 18pt;
+  margin-top: 1.5em;
+}
+
+h3 {
+  font-size: 16pt;
+}
+
+footer p {
+  display: block !important;
+  border-top: 1pt solid #000;
+  margin-top: 1em;
+  padding-top: 1em;
+  font-style: italic;
+}
