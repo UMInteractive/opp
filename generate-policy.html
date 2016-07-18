@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Generate Your Policy | Open Privacy Policy</title>
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Open Privacy Policy</h1>
+      <a href="index.html"><img src="img/logo-white.svg" alt="Open Privacy Policy" /></a>
+      <nav>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="generate-policy.html">Generate Yours</a></li>
+          <li><a href="icons.html">Icons</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro">
+        <article>
+          <h2>Generate Your Policy</h2>
+          <p>Answer the following questions and we will generate a clear, easy-to-understand, open privacy policy for your web site.</p>
+        </article>
+      </section>
+
+      <section>
+        <article>
+
+          <form id="questions">
+
+            <h2>Collection, Use and Retention</h2>
+
+            <p class="explainer">What information do you collect from users? How do you use it and for how long?</p>
+
+            <p>You collect user information from:</p>
+            <label><input type="radio" name="00" value="allUsers" /> all users</label>
+            <label><input type="radio" name="00" value="adultsOnly" /> adults only</label>
+            <label><input type="radio" name="00" value="minorsOnly" /> minors and/or children only</label>
+
+            <p>You collect <strong>personal information</strong> about users for:</p>
+            <label><input type="radio" name="01" value="personalSite" /> your operations only</label>
+            <label><input type="radio" name="01" value="personalThird" /> various purposes and may disclose, share or sell it to others</label>
+
+            <p>You collect <strong>general or demographic information</strong> about users for:</p>
+            <label><input type="radio" name="02" value="demographicSite" /> your operations only</label>
+            <label><input type="radio" name="02" value="demographicThird" /> various purposes and may disclose, share or sell it to others</label>
+
+            <p>You collect <strong>transactional information</strong> or uses of our sites or services for:</p>
+            <label><input type="radio" name="03" value="transactionalSite" /> your operations only</label>
+            <label><input type="radio" name="03" value="transactionalThird" /> various purposes and may disclose, share or sell it to others</label>
+
+            <p>You collect users' <strong>friends and contacts information</strong>:</p>
+            <label><input type="radio" name="04" value="friendsAuth" /> only if authorized by the user</label>
+            <label><input type="radio" name="04" value="friendsNoAuth" /> without user authorization</label>
+
+            <p>You use user friends and contacts information for:</p>
+            <label><input type="radio" name="05" value="friendsSite" /> your operations only</label>
+            <label><input type="radio" name="05" value="friendsThird" /> various purposes and may disclose, share or sell it to others</label>
+
+            <p>You may retain user information:</p>
+            <label><input type="radio" name="06" value="retainIndef" /> for an indefinite period of time</label>
+            <label><input type="radio" name="06" value="retainRegis" /> for as long as the user remain registered with us</label>
+            <label><input type="radio" name="06" value="retainLimit" /> for a specified period of time</label>
+
+
+            <h2>Site Changes</h2>
+
+            <p class="explainer">What happens to the data collected when a change occurs at your site? </p>
+
+            <p>If your privacy policy changes, you:</p>
+            <label><input type="radio" name="07" value="userNotified" /> will provide notice to users</label>
+            <label><input type="radio" name="07" value="null" /> will not provide notice</label>
+
+            <p>Upon changes in your privacy policy:</p>
+            <label><input type="radio" name="08" value="oldData" /> previously collected data is subject to the announced change</label>
+            <label><input type="radio" name="08" value="newData" /> only new information collected is subject to the announced change</label>
+
+            <p>If a sale, merger, acquisition, etc. occurs, you may transfer user information:</p>
+            <label><input type="radio" name="09" value="transferConsent" /> only with the user's express consent</label>
+            <label><input type="radio" name="09" value="transferNoConsent" /> without the user's consent</label>
+
+
+
+
+            <h2>User Rights</h2>
+
+            <p class="explainer">How much control does a user have over his/her data collected at your site?</p>
+
+            <p>Can users change, edit or delete information you have collected?</p>
+            <label><input type="radio" name="10" value="userEdit" /> Yes</label>
+            <label><input type="radio" name="10" value="null" /> No</label>
+
+            <p>Can users opt out of communication?</p>
+            <label><input type="radio" name="11" value="userOptOut" /> Yes</label>
+            <label><input type="radio" name="11" value="noOptOut" /> No</label>
+
+            <p>We employ reasonable security measures including <small>(check all that apply)</small>:</p>
+            <label><input type="checkbox" name="12" value="secPassword" /> password-protecting account information</label>
+            <label><input type="checkbox" name="12" value="secEncrypt" /> encrypting personal information</label>
+
+
+            <h2>That's it!</h2>
+
+            <input type="submit" id="submit" value="Generate Your Policy" />
+          </form>
+
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <!--nav id="terms">
+        <ul>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav-->
+
+      <img src="img/logo-black.svg" alt="Open Privacy Policy" />
+
+      <!--nav id="social">
+        <ul>
+          <li><a href="http://twitter.com/"><img src="img/twitter.svg" alt="Twitter: @"></a></li>
+        </ul>
+      </nav-->
+    </footer>
+
+    <script src="js/section.js"></script>
+    <script src="js/collect-answers.js"></script>
+  </body>
+</html>
