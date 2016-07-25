@@ -103,6 +103,10 @@ section {
   color: #eee;
 }
 
+.active {
+    color: orange;
+}
+
 #intro {
   background: url("../img/bg-edit.jpg");
   background-size: cover;
@@ -110,7 +114,22 @@ section {
   /* background-attachment: fixed; */
   /* fixed or no for reverse curtain effect? */
   color: #fff;
-  padding: 290px 0 200px 0;
+  padding: 290px 0 0px 0;
+}
+
+#subpage {
+  background: black;
+  color: #fff;
+  padding: 250px 0 0 0;
+    
+}
+
+#video {
+    padding-bottom: 30px;
+}
+
+#whatis, #howitworks, #badge, #clarity {
+    padding: 50px 0 50px 0;
 }
 
 #policy {
@@ -209,6 +228,8 @@ a.optin {
   transition: all 0.5s ease-in;
   font-weight: 400;
   font-size: 20px;
+    color: #fff;
+    background: rgb(242, 164, 21);
 }
 
 a.optin:hover {
